@@ -6,7 +6,7 @@ public class BaseCharacter : MonoBehaviour {
 
 // Character classes/mods
   private string characterName;
-  private string element;
+  private BaseElement element;
   private string alignment;
   private string size;
   private string personality;
@@ -14,7 +14,7 @@ public class BaseCharacter : MonoBehaviour {
 // Character base stats
   private int health;
   private int maxHealth;
-  private int attack;
+  private int attack = 30;
   private int defense;
   private int energy; // (special attack)
   private int resistence; // (special defence)
@@ -41,7 +41,7 @@ public class BaseCharacter : MonoBehaviour {
 
 // Getters and Setters
   public string CharacterName {get; set;}
-  public string Element {get; set;}
+  public BaseElement Element {get; set;}
   public string Alignment {get; set;}
   public string Size {get; set;}
   public string Personality {get; set;}
@@ -65,34 +65,5 @@ public class BaseCharacter : MonoBehaviour {
 
   public int Level {get; set;}
   public int Experience {get; set;}
-
-  void Awake (){
-    this.CharacterName = "Character";
-    this.Element = "Element"; // earth/fire/water/air
-    this.Alignment = "Alignment"; // dark/light/mind/might
-    this.Size = "Size"; // big/small/medium
-    this.Personality = "Personality"; // reserved/aggressive/focused/adaptable
-
-    this.Health = 300;
-    this.MaxHealth = 300;
-    this.Attack = 30;
-    this.Defense = 30;
-    this.Energy = 30;
-    this.Resistence = 30;
-    this.Speed = 30;
-
-    this.Shield = 5;
-    this.Resilience = 0;
-    this.Retaliation = 1;
-    this.RetaliationDamage = 0.5f;
-    this.ComboPoints = 0;
-    this.MaxComboPoints = 3;
-    this.ActionPoints = 0;
-    this.MaxActionPoints = 4;
-
-    this.Level = 0;
-    this.Experience = 0;
-  }
-
 
 }

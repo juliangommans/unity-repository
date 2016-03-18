@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BaseElements : MonoBehaviour {
+public class BaseElement : MonoBehaviour {
 
   private string type;
   private string strongAgainstType;
@@ -19,14 +19,10 @@ public class BaseElements : MonoBehaviour {
   public float StrengthBonus {get; set;}
   public float ResistedBonus {get; set;}
 
-  void Awake(){
-    this.Type = "Element"; // name of this element
-    this.StrongAgainstType = "Element1"; // what this element is strong against
-    this.WeakAgainstType = "Element2";  // what this element is weak against
 
-    this.SameElementBonus = 0.2f;
-    this.StrengthBonus = 0.3f;
-    this.ResistedBonus = 0.3f;
+  public BaseElement(){
+	SameElementBonus = 0.2f;
+	StrengthBonus = 0.3f;
+	ResistedBonus = 0.3f;
   }
-
 }
