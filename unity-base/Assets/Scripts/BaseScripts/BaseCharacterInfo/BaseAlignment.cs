@@ -32,20 +32,20 @@ public class BaseAlignment : MonoBehaviour {
   public float IncreasedAmount {get; set;}
   public float IncreasedAmount2 {get; set;}
 
-  void Awake(){
-    this.Type = "Element"; // name of this element
-    this.StrongAgainstType = "Element1"; // what this element is strong against
-    this.WeakAgainstType = "Element2";  // what this element is weak against
+	public BaseAlignment(){
+    Type = "Element"; // name of this element
+    StrongAgainstType = "Element1"; // what this element is strong against
+    WeakAgainstType = "Element2";  // what this element is weak against
 
-    this.SameElementBonus = 0.2f;
-    this.StrengthBonus = 0.3f;
-    this.ResistedBonus = 0.3f;
+    SameElementBonus = 0.2f;
+    StrengthBonus = 0.3f;
+    ResistedBonus = 0.3f;
 
 // Alignment is half elemnet, half size in terms of effects
-    this.IncreasedStat = "Stat";
-    this.IncreasedStat2 = "Stat2";
+    IncreasedStat = "Stat";
+    IncreasedStat2 = "Stat2";
 
-    this.IncreasedAmount = 0.2f;
-    this.IncreasedAmount2 = 0.2f;
+    IncreasedAmount = 0.2f;
+    IncreasedAmount2 = 0.2f;
   }
 }

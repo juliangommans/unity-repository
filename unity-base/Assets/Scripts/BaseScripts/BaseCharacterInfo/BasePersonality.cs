@@ -11,9 +11,9 @@ public class BasePersonality : MonoBehaviour {
 	public string EffectedStat { get; set; }
 	public int AmountChanged { get; set; }
 
-	void Awake() {
-		this.Type = "Personality";
-		this.EffectedStat = "Stat";
-		this.AmountChanged = 1;
+	public BasePersonality() {
+		Type = "Personality";
+		EffectedStat = "Stat";
+		AmountChanged = 1;
 	}
 }

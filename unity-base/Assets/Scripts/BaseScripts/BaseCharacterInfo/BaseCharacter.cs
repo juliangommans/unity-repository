@@ -14,7 +14,7 @@ public class BaseCharacter : MonoBehaviour {
 // Character base stats
   private int health;
   private int maxHealth;
-  private int attack = 30;
+  private int attack;
   private int defense;
   private int energy; // (special attack)
   private int resistence; // (special defence)
@@ -66,4 +66,31 @@ public class BaseCharacter : MonoBehaviour {
   public int Level {get; set;}
   public int Experience {get; set;}
 
+	public BaseCharacter (){
+	  CharacterName = "Character";
+	  Element = new BaseElement(); // earth/fire/water/air
+	  Alignment = "Alignment"; // dark/light/mind/might
+	  Size = "Size"; // big/small/medium
+	  Personality = "Personality"; // reserved/aggressive/focused/adaptable
+
+	  Health = 300;
+	  MaxHealth = 300;
+	  Attack = 30;
+	  Defense = 30;
+	  Energy = 30;
+	  Resistence = 30;
+	  Speed = 30;
+
+	  Shield = 5;
+	  Resilience = 0;
+	  Retaliation = 1;
+	  RetaliationDamage = 0.5f;
+	  ComboPoints = 0;
+	  MaxComboPoints = 3;
+	  ActionPoints = 0;
+	  MaxActionPoints = 4;
+
+	  Level = 0;
+	  Experience = 0;
+	}
 }

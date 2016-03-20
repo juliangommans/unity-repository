@@ -17,13 +17,13 @@ public class BaseSize : MonoBehaviour {
   public float IncreasedAmount {get; set;}
   public float DecreasedAmount {get; set;}
 
-  void Awake() {
-    this.Size = "Size";
-    this.IncreasedStat = "Stat";
-    this.DecreasedStat = "Stat";
+	public BaseSize() {
+    Size = "Size";
+    IncreasedStat = "Stat";
+    DecreasedStat = "Stat";
 
-    this.IncreasedAmount = 0.2f;
-    this.DecreasedAmount = 0.2f;
+    IncreasedAmount = 0.2f;
+    DecreasedAmount = 0.2f;
 
   }
 
