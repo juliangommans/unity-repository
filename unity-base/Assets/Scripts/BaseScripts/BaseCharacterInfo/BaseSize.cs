@@ -17,13 +17,13 @@ public class BaseSize : MonoBehaviour {
   public float IncreasedAmount {get; set;}
   public float DecreasedAmount {get; set;}
 
-	public BaseSize() {
-    Size = "Size";
-    IncreasedStat = "Stat";
-    DecreasedStat = "Stat";
+  public BaseSize() {
+    Size = null;
+	IncreasedStat = null;
+    DecreasedStat = null;
 
-    IncreasedAmount = 0.2f;
-    DecreasedAmount = 0.2f;
+    IncreasedAmount = 1.2f;
+    DecreasedAmount = 0.8f;
 
   }
 

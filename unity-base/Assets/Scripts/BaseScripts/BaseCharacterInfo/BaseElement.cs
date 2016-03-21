@@ -21,6 +21,10 @@ public class BaseElement : MonoBehaviour {
 
 
   public BaseElement(){
+	Type = null;
+	StrongAgainstType = null;
+	WeakAgainstType = null;
+
 	SameElementBonus = 0.2f;
 	StrengthBonus = 0.3f;
 	ResistedBonus = 0.3f;

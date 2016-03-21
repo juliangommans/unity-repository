@@ -20,32 +20,32 @@ public class BaseAlignment : MonoBehaviour {
   public float ResistedBonus {get; set;}
 
 // Passive bonuses to stats
-  private string increasedStat;
+  private string increasedStat1;
   private string increasedStat2;
 
   private float increasedAmount;
   private float increasedAmount2;
 
-  public string IncreasedStat {get; set;}
+  public string IncreasedStat1 {get; set;}
   public string IncreasedStat2 {get; set;}
 
-  public float IncreasedAmount {get; set;}
+  public float IncreasedAmount1 {get; set;}
   public float IncreasedAmount2 {get; set;}
 
 	public BaseAlignment(){
-    Type = "Element"; // name of this element
-    StrongAgainstType = "Element1"; // what this element is strong against
-    WeakAgainstType = "Element2";  // what this element is weak against
+    Type = null; // name of this element
+    StrongAgainstType = null; // what this element is strong against
+    WeakAgainstType = null;  // what this element is weak against
 
     SameElementBonus = 0.2f;
     StrengthBonus = 0.3f;
     ResistedBonus = 0.3f;
 
-// Alignment is half elemnet, half size in terms of effects
-    IncreasedStat = "Stat";
-    IncreasedStat2 = "Stat2";
+// Alignment is half element, half size in terms of effects
+    IncreasedStat1 = null;
+    IncreasedStat2 = null;
 
-    IncreasedAmount = 0.2f;
-    IncreasedAmount2 = 0.2f;
+    IncreasedAmount1 = 1.2f;
+    IncreasedAmount2 = 1.2f;
   }
 }

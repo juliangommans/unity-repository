@@ -1,13 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BaseScripts/BaseElements/WaterElement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TestScripts/CharacterTestButton.cs">
     <Files>
-      <File FileName="Assets/Scripts/TestScripts/NewPlayer.cs" Line="13" Column="2" />
-      <File FileName="Assets/Scripts/TestScripts/CharacterTestButton.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/TestScripts/CharacterTestButton.cs" Line="7" Column="2" />
+      <File FileName="Assets/Scripts/TestScripts/NewPlayer.cs" Line="9" Column="33" />
       <File FileName="Assets/Scripts/BaseScripts/BaseElements/WaterElement.cs" Line="13" Column="1" />
-      <File FileName="Assets/Scripts/BaseScripts/BaseCharacterInfo/BaseCharacter.cs" Line="81" Column="26" />
+      <File FileName="Assets/Scripts/BaseScripts/BaseCharacterInfo/BaseCharacter.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/BaseScripts/BaseElements/AirElement.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BaseScripts/BaseCharacterInfo/BaseElement.cs" Line="23" Column="3" NotebookId="1" />
+      <File FileName="Assets/Scripts/BaseScripts/BaseCharacterInfo/BaseElement.cs" Line="26" Column="19" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -4,16 +4,23 @@ using System.Collections;
 public class BasePersonality : MonoBehaviour {
 	
 	private string type;
-	private string effectedStat;
-	private int amountChanged;
+	private string primaryEffectedStat;
+	private string secondaryEffectedStat;
+	private int primaryAmountChanged;
+	private int secondaryAmountChanged;
 
 	public string Type { get; set; }
-	public string EffectedStat { get; set; }
-	public int AmountChanged { get; set; }
+	public string PrimaryEffectedStat { get; set; }
+	public string SecondaryEffectedStat { get; set; }
+	public int PrimaryAmountChanged { get; set; }
+	public int SecondaryAmountChanged { get; set; }
 
 	public BasePersonality() {
-		Type = "Personality";
-		EffectedStat = "Stat";
-		AmountChanged = 1;
+		Type = null;
+		PrimaryEffectedStat = null;
+		SecondaryEffectedStat = null;
+		PrimaryAmountChanged = 1;
+		SecondaryAmountChanged = 5;
 	}
+		
 }
