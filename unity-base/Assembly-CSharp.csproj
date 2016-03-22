@@ -45,26 +45,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BaseScripts\BaseAlignments\DarkAlignment.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseAlignments\LightAlignment.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseAlignments\MightAlignment.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseAlignments\MindAlignment.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseAlignment.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseAlignments\BaseAlignment.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseAlignments\DarkAlignment.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseAlignments\LightAlignment.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseAlignments\MightAlignment.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseAlignments\MindAlignment.cs" />
      <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseCharacter.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseElement.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BasePersonality.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseSize.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseElements\AirElement.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseElements\EarthElement.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseElements\FireElement.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseElements\WaterElement.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BasePersonalities\AggressivePersonality.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BasePersonalities\AgilePersonality.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BasePersonalities\FocusedPersonality.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BasePersonalities\ReservedPersonality.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseSizes\BigSize.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseSizes\MediumSize.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseSizes\SmallSize.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseElements\AirElement.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseElements\BaseElement.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseElements\EarthElement.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseElements\FireElement.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseElements\WaterElement.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BasePassives\BasePassive.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BasePassives\Tier1Passives\ShieldingPassive.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BasePersonalities\AggressivePersonality.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BasePersonalities\AgilePersonality.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BasePersonalities\BasePersonality.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BasePersonalities\FocusedPersonality.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BasePersonalities\ReservedPersonality.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseSizes\BaseSize.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseSizes\BigSize.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseSizes\MediumSize.cs" />
+     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseSizes\SmallSize.cs" />
      <Compile Include="Assets\Scripts\TestScripts\CharacterTestButton.cs" />
      <Compile Include="Assets\Scripts\TestScripts\NewPlayer.cs" />
  <Reference Include="UnityEngine.Networking">

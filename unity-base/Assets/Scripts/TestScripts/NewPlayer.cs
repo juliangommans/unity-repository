@@ -5,8 +5,12 @@ public class NewPlayer : MonoBehaviour {
 
 	public BaseCharacter player;
 
-	void Start () {
+	void Awake (){
+		
 		player = new BaseCharacter ();
+	}
+
+	void Start () {
 
 //		player.CharacterName = "Character";
 //		player.Element = new BaseElement(); // earth/fire/water/air
