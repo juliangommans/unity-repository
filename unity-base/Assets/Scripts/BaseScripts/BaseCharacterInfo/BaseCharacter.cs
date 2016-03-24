@@ -101,10 +101,6 @@ public class BaseCharacter : MonoBehaviour {
 	public int Level {get; set;}
 	public int Experience {get; set;}
 
-//	void Start (){
-//		passives = new List<BasePassive> ();
-//	}
-
 	public BaseCharacter (){
 		CharacterName = "Character";
 		Element = new BaseElement(); // earth/fire/water/air
@@ -290,7 +286,7 @@ public class BaseCharacter : MonoBehaviour {
 		}
 	}
 
-	void ResetStats (){
+	public void ResetStats (){
 		Health = BaseHealth;
 		MaxHealth = BaseMaxHealth;
 		Attack = BaseAttack;

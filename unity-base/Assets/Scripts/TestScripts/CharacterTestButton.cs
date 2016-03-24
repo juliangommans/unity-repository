@@ -14,11 +14,12 @@ public class CharacterTestButton : MonoBehaviour {
 	}
 
 	public void SetElement(){
-		
+
+		playa.player.ResetStats ();
+
 		Debug.Log ("Health befores "+ playa.player.Health);
 		Debug.Log ("Attack befores "+ playa.player.Attack);
 		Debug.Log ("Shield befores "+ playa.player.Shield);
-		Debug.Log ("passives? " + playa.player.passives + " AND " + shieldingPassive);
 
 		playa.player.Element = new WaterElement ();
 		playa.player.Alignment = new MightAlignment ();
