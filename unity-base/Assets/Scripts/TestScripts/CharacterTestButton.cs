@@ -6,27 +6,34 @@ using System.Linq.Expressions;
 public class CharacterTestButton : MonoBehaviour {
 
 	public NewPlayer playa;
+	BasePassive shieldingPassive;
 
 	void Start(){
 		playa = GameObject.Find ("PlayerTest").GetComponent<NewPlayer> ();
+		shieldingPassive = new ShieldingPassive();
 	}
 
 	public void SetElement(){
-		
+
+		playa.player.ResetStats ();
+
 		Debug.Log ("Health befores "+ playa.player.Health);
 		Debug.Log ("Attack befores "+ playa.player.Attack);
-		Debug.Log ("Speed befores "+ playa.player.Speed);
+		Debug.Log ("Shield befores "+ playa.player.Shield);
 
 		playa.player.Element = new WaterElement ();
 		playa.player.Alignment = new MightAlignment ();
 		playa.player.Size = new BigSize ();
 		playa.player.Personality = new AggressivePersonality ();
 
+		playa.player.passives.Add (shieldingPassive);
+
+
 		playa.player.ImplimentTraits ();
 
 		Debug.Log ("Health AFTER "+ playa.player.Health);
 		Debug.Log ("Attack AFTER "+ playa.player.Attack);
-		Debug.Log ("Speed AFTER "+ playa.player.Speed);
+		Debug.Log ("Shield AFTER "+ playa.player.Shield);
 
 	}
 
