@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -46,41 +46,28 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Location\Location.cs" />
-     <Compile Include="Assets\Player\Player.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseAlignments\BaseAlignment.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseAlignments\DarkAlignment.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseAlignments\LightAlignment.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseAlignments\MightAlignment.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseAlignments\MindAlignment.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseCharacter.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseElements\AirElement.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseElements\BaseElement.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseElements\EarthElement.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseElements\FireElement.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseElements\WaterElement.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BasePassives\BasePassive.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BasePassives\Tier1Passives\ShieldingPassive.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BasePersonalities\AggressivePersonality.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BasePersonalities\AgilePersonality.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BasePersonalities\BasePersonality.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BasePersonalities\FocusedPersonality.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BasePersonalities\ReservedPersonality.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseSizes\BaseSize.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseSizes\BigSize.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseSizes\MediumSize.cs" />
-     <Compile Include="Assets\Scripts\BaseScripts\BaseCharacterInfo\BaseSizes\SmallSize.cs" />
-     <Compile Include="Assets\Scripts\QuestSystem\Interface\IQuest.cs" />
-     <Compile Include="Assets\Scripts\QuestSystem\Interface\IQuestIdentifier.cs" />
-     <Compile Include="Assets\Scripts\QuestSystem\Interface\IQuestObjective.cs" />
-     <Compile Include="Assets\Scripts\QuestSystem\Interface\IQuestText.cs" />
-     <Compile Include="Assets\Scripts\QuestSystem\Objectives\CollectionObjective.cs" />
-     <Compile Include="Assets\Scripts\QuestSystem\Objectives\LocationObjective.cs" />
-     <Compile Include="Assets\Scripts\QuestSystem\Quest.cs" />
-     <Compile Include="Assets\Scripts\QuestSystem\QuestIdentifier.cs" />
-     <Compile Include="Assets\Scripts\QuestSystem\QuestText.cs" />
-     <Compile Include="Assets\Scripts\TestScripts\CharacterTestButton.cs" />
-     <Compile Include="Assets\Scripts\TestScripts\NewPlayer.cs" />
-     <Compile Include="Assets\Scripts\TestScripts\QuestTests.cs" />
+     <Compile Include="Assets\V2\GameManager\CombatManager.cs" />
+     <Compile Include="Assets\V2\GameManager\EnemyManager.cs" />
+     <Compile Include="Assets\V2\GameManager\GameManager.cs" />
+     <Compile Include="Assets\V2\GameManager\SkillManager.cs" />
+     <Compile Include="Assets\V2\GameManager\TurnManager.cs" />
+     <Compile Include="Assets\V2\GameManager\UserControlsManager.cs" />
+     <Compile Include="Assets\V2\Scripts\BaseScripts\BaseBonus.cs" />
+     <Compile Include="Assets\V2\Scripts\BaseScripts\BaseCharacter.cs" />
+     <Compile Include="Assets\V2\Scripts\BaseScripts\BaseDiscipline.cs" />
+     <Compile Include="Assets\V2\Scripts\BaseScripts\BaseObjectInformation.cs" />
+     <Compile Include="Assets\V2\Scripts\BaseScripts\BaseSchool.cs" />
+     <Compile Include="Assets\V2\Scripts\BaseScripts\BaseSkill.cs" />
+     <Compile Include="Assets\V2\Scripts\BaseScripts\BaseSkillEffects.cs" />
+     <Compile Include="Assets\V2\Scripts\Character\Enemies\DummyEnemy.cs" />
+     <Compile Include="Assets\V2\Scripts\Character\Player.cs" />
+     <Compile Include="Assets\V2\Scripts\Disciplines\Elemental\ElementalDiscipline.cs" />
+     <Compile Include="Assets\V2\Scripts\Disciplines\Elemental\Fire\FireSchool.cs" />
+     <Compile Include="Assets\V2\Scripts\Disciplines\Elemental\Fire\FireSkills\TouchOfFlame.cs" />
+     <Compile Include="Assets\V2\Scripts\SkillEffects\AreaOfEffect.cs" />
+     <Compile Include="Assets\V2\Scripts\SkillEffects\Buff.cs" />
+     <Compile Include="Assets\V2\Scripts\SkillEffects\Debuff.cs" />
+     <Compile Include="Assets\V2\Scripts\SkillEffects\ModifyStat.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -1,15 +1,22 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Location/Location.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/V2/Scripts/Character/Player.cs">
     <Files>
-      <File FileName="Assets/Scripts/TestScripts/QuestTests.cs" Line="16" Column="1" />
-      <File FileName="Assets/Location/Location.cs" Line="56" Column="1" />
-      <File FileName="Assets/Scripts/QuestSystem/Objectives/LocationObjective.cs" Line="55" Column="8" />
-      <File FileName="Assets/Player/Player.cs" Line="11" Column="67" />
+      <File FileName="Assets/V2/GameManager/CombatManager.cs" Line="44" Column="29" />
+      <File FileName="Assets/V2/GameManager/SkillManager.cs" Line="23" Column="2" />
+      <File FileName="Assets/V2/Scripts/BaseScripts/BaseSkill.cs" Line="53" Column="49" />
+      <File FileName="Assets/V2/Scripts/BaseScripts/BaseCharacter.cs" Line="109" Column="31" />
+      <File FileName="Assets/V2/GameManager/UserControlsManager.cs" Line="9" Column="3" />
+      <File FileName="Assets/V2/Scripts/Character/Player.cs" Line="16" Column="12" />
+      <File FileName="Assets/V2/Scripts/Character/Enemies/DummyEnemy.cs" Line="25" Column="3" />
+      <File FileName="Assets/V2/GameManager/GameManager.cs" Line="32" Column="4" NotebookId="1" />
+      <File FileName="Assets/V2/GameManager/TurnManager.cs" Line="50" Column="4" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/juliangommans/Documents/Julian/unity-repository/unity-base/Assets/V2/Scripts/Disciplines/Elemental/Fire/FireSkills/TouchOfFlame.cs" line="6" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
