@@ -15,13 +15,11 @@ public class SkillManager : MonoBehaviour {
 	public bool Selected { get; set; }
 	public GameObject Target { get; set; }
 
-	void Awake (){
-		character = GameObject.Find("GameScripts").GetComponent<GameManager> ().Player;
-		skill = character.GetComponent<BaseCharacter> ().Skills [0]; // this needs to come from the players stat pool	
-	}
-
 	public void SkillSetup (){
 		// will need some logic eventually to determine skills modularly
+
+		character = GameObject.Find("GameScripts").GetComponent<GameManager> ().Player;
+		skill = character.GetComponent<BaseCharacter> ().Skills [0]; // this needs to come from the players stat pool	
 		selected = false;
 	}
 
