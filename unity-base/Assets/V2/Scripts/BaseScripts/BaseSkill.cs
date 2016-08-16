@@ -52,7 +52,7 @@ public class BaseSkill {
 
 	public BaseSkill (BaseObjectInformation setInfo, GameObject o) {
 		information = setInfo;
-		owner = o;
+		this.Owner = o;
 		// defaults
 		effects = new List<BaseSkillEffects>();
 		power = 10;

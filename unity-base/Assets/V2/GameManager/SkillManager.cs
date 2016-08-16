@@ -41,7 +41,7 @@ public class SkillManager : MonoBehaviour {
 		allowedTarget = skill.AllowedTarget (target, character);
 		if (allowedTarget) {
 			skill.Target = target;
-			Debug.Log ("tar: " + target);
+			Debug.Log ("tar: " + target + " from: " + skill.Owner.name);
 		} else {
 			Debug.Log ("you have selected an invalid target");
 		}

@@ -8,11 +8,15 @@ public class Player : BaseCharacter {
 	private const string name = "Player"; // input can effect this later
 	private BaseDiscipline discipline = new ElementalDiscipline(); //should be set when selected.
 
-	public Player ()
-		:base (){
-
+//	public Player ()
+//		:base (){
+//
+//	}
+	public void BuildPlayer() {
+		Debug.Log (this.gameObject);
 		this.CharacterName = name;
 		this.Discipline = discipline;
 		this.Skills.Add (new TouchOfFlame (this.gameObject));
 	}
+		
 }

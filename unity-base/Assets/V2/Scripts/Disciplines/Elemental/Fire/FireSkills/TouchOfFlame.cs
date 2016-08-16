@@ -23,6 +23,7 @@ public class TouchOfFlame : BaseSkill {
 	public TouchOfFlame(GameObject o)
 		:base(new BaseObjectInformation(name,description), o)
 	{
+		
 		this.Discipline = new ElementalDiscipline();
 		this.School = new FireSchool ();
 		this.CanRetaliate = canRetaliate;

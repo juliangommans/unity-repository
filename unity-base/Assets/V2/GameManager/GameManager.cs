@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour {
 		{
 		case GameState.Paused:
 			if (true) { // Testing purposes - SHOULD give options here.
+				player.GetComponent<Player>().BuildPlayer();
 				combatManager = new CombatManager();
 				combatManager.StartCombat(Player);
 				gameState = GameState.Combat;
